@@ -38,3 +38,11 @@ iframe{
     height: 500px;
     z-index: 10;
 }
+
+/* 768×1024px (Ipad vertical) */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    iframe{
+        width: 100vw;
+        height: 100vh;
+    }
+}
