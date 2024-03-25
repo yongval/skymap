@@ -46,3 +46,11 @@ iframe{
         height: 100vh;
     }
 }
+
+/* 768×1024px (Ipad vertical) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    iframe{
+        /* width: 100vw; */
+        height: 100vh;
+    }
+}
