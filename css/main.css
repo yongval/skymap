@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Cloud";
+    src: url(../src/fonts/CloudBold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+#bg{
+    width: 100vw;
+    position: absolute;
+}
+#bg img{
+    width: 100%;
+}
+
+
+#map{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 100px 5px white;
+}
+
+iframe{
+    width: 780px;
+    height: 500px;
+    z-index: 10;
+}
+
+/* 768×1024px (Ipad vertical) */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    iframe{
+        width: 100vw;
+        height: 100vh;
+    }
+}
